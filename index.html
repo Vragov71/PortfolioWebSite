@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Стоян Врагов" />
+    <title>Стоян Врагов | Ученическо Портфолио</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-gradient"></div>
+    <div class="glass-overlay"></div>
+
+    <header id="header">
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Начало</a></li>
+          <li><a href="#about">За мен</a></li>
+          <li><a href="#activity">Дейност</a></li>
+          <li><a href="#gallery">Галерия</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="hero-content">
+          <span class="greeting">Здравейте, аз съм</span>
+          <h1 class="name">Стоян Врагов</h1>
+          <h2 class="role">Ученик в 12<sup>в</sup> клас</h2>
+          <p class="school">СУ „Св. Паисий Хилендарски“, гр. Пловдив</p>
+          <div class="hero-buttons">
+            <a href="#about" class="btn btn-primary">Научете повече</a>
+            <a href="#contacts" class="btn btn-secondary">Свържете се с мен</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="profile-card-glass">
+            <img src="assets/img/IMG_8526.jpeg" alt="Стоян Врагов" class="profile-image" />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-title">За мен</h2>
+          <div class="about-grid">
+            <div class="about-card" data-aos="fade-up">
+              <i class="fas fa-map-marker-alt icon"></i>
+              <h3>Роден град</h3>
+              <p>
+                Роден съм на 7-ми октомври 2007г. в град
+                <strong>Пловдив</strong> - един от най-старите и красиви градове
+                в Европа.
+              </p>
+            </div>
+            <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+              <i class="fas fa-graduation-cap icon"></i>
+              <h3>Образование</h3>
+              <p>
+                В момента завършвам средното си образование в
+                <strong>СУ „Св. Паисий Хилендарски“</strong>, профил "Хардуерни
+                и софтуерни науки".
+              </p>
+            </div>
+            <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+              <i class="fas fa-bullseye icon"></i>
+              <h3>Цели</h3>
+              <p>
+                Стремя се към постоянно развитие в сферата на технологиите и
+                успешно реализиране на бъдещи проекти.
+              </p>
+            </div>
+            <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+              <i class="fas fa-laptop-code icon"></i>
+              <h3>Професионален път</h3>
+              <p>Като <strong>Lead Developer</strong> в <strong>МИКРОФОНД ЕАД</strong>, ръководя изграждането на дигиталната идентичност на компанията чрез разработка на мащабен уебсайт и функционално мобилно приложение.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="activity" class="section">
+        <div class="container">
+          <h2 class="section-title">Дейност</h2>
+
+          <div class="tabs">
+            <button class="tab-btn active" data-target="achievements">
+              Постижения
+            </button>
+            <button class="tab-btn" data-target="projects">Проекти</button>
+          </div>
+
+          <div id="achievements" class="tab-content active">
+            <div class="activity-grid">
+              <div class="activity-card">
+                <div class="card-header personal">
+                  <i class="fas fa-star"></i>
+                  <h4>Лични</h4>
+                </div>
+                <ul class="card-list">
+                  <li>Дългогодишен юноша в Локомотив Пловдив</li>
+                  <li>Седемкратен шампион на България в зона Пловдив</li>
+                  <li>Advanced Open Water водолаз</li>
+                  <li>Фитнес ентусиаст</li>
+                </ul>
+              </div>
+              <div class="activity-card">
+                <div class="card-header other">
+                  <i class="fas fa-medal"></i>
+                  <h4>Други</h4>
+                </div>
+                <ul class="card-list">
+                  <li>Отличен успех по информатика и информационни технологии</li>
+                  <li>Участие в програмата към МОН - ИТ Кариер</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div id="projects" class="tab-content">
+                    <div class="projects-grid">
+                        <div class="project-item">
+                            <div class="project-icon"><i class="fas fa-building"></i></div>
+                            <h4>Микрофонд ЕАД</h4>
+                            <p><strong>Lead Developer:</strong> Разработка на корпоративен уебсайт и мобилно приложение за дигитална идентичност.</p>
+                        </div>
+                        <div class="project-item">
+                            <div class="project-icon"><i class="fas fa-carrot"></i></div>
+                            <h4>Smart Home Manager</h4>
+                            <p>Приложение за домакинството: рецепти, умна кошница за пазар, наличности и следене на макронутриенти.</p>
+                        </div>
+                    </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="section">
+        <div class="container">
+          <h2 class="section-title">Галерия</h2>
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img src="assets/img/IMG_8521.jpeg" alt="Gallery Image 1" loading="lazy">
+            </div>
+            <div class="gallery-item">
+              <img src="assets/img/IMG_8523.jpeg" alt="Gallery Image 2" loading="lazy">
+            </div>
+            <div class="gallery-item">
+              <img src="assets/img/IMG_8524.jpeg" alt="Gallery Image 3" loading="lazy">
+            </div>
+            <div class="gallery-item">
+              <img src="assets/img/IMG_8525.jpeg" alt="Gallery Image 4" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" class="section">
+        <div class="container">
+          <h2 class="section-title">Контакти</h2>
+          <div class="contact-wrapper">
+            <div class="contact-info">
+              <h3>Свържете се с мен</h3>
+              <p>
+                Ако имате въпроси или предложения, не се колебайте да ми пишете.
+              </p>
+              <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <span>stoyanvragov@gmail.com</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <span>+359 887 107 770</span>
+              </div>
+              <div class="info-item">
+                <i class="fas fa-map-pin"></i>
+                <span>гр. Пловдив, България</span>
+              </div>
+            </div>
+            <form class="contact-form">
+              <div class="form-group">
+                <input type="text" placeholder="Вашето име" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Вашият Email" required />
+              </div>
+              <div class="form-group">
+                <textarea
+                  rows="5"
+                  placeholder="Вашето съобщение"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Изпрати</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100012104617433" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/st.vragov71" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/stoyan-vragov-232798396/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
